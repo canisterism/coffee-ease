@@ -3,7 +3,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <nav className="bg-yellow-700 p-2.5 container mx-auto flex justify-between">
+    <nav className="bg-yellow-700 p-2.5  mx-auto flex justify-between">
       <Logo />
       <HamburgerMenuButton />
     </nav>
@@ -27,11 +27,11 @@ const HamburgerMenuButton = () => {
         width="24"
         height="24"
         viewBox="0 0 24 24"
-        stroke-width="2"
+        strokeWidth="2"
         stroke="white"
         fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <path d="M4 8l16 0"></path>
